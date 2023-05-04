@@ -9,7 +9,7 @@ from AniPlay.plugins.stats import day, over
 @app.on_message(filters.command(['start', 'ping', 'help', 'alive']))
 async def start(_, message: Message):
     try:
-        await message.reply_text(''Hello, I am a Bot which you can use to watch anime Online, without any hassle and ofcourse without any ads...\nYou can Search for Animes Using /search or /s\nEg - /search One Piece   or   /s One Piece\n\n You can Join our Main Channel - @allanimesschannel for Direct Anime Files (You will find most of the Animes here)...')
+        await message.reply_text('Hello, I am a Bot which you can use to watch anime Online, without any hassle and ofcourse without any ads... \nYou can Search for Animes Using /search or /s\nEg - /search One Piece   or   /s One Piece\n\n You can Join our Main Channel - @allanimesschannel for Direct Anime Files (You will find most of the Animes here)...')
     except:
         return
 
